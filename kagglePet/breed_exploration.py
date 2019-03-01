@@ -4,7 +4,7 @@ import matplotlib.pylab as plt
 import plotly.plotly as py
 import plotly.graph_objs as go
 
-from basic_explorer import BasicExplorer
+from .basic_explorer import BasicExplorer
 
 
 class BreedExplorer(BasicExplorer):
