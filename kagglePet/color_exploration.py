@@ -4,7 +4,7 @@ import matplotlib.pylab as plt
 import numpy as np
 
 
-from basic_explorer import BasicExplorer
+from .basic_explorer import BasicExplorer
 
 
 def get_one_color(row):# TODO: check if other permutations possible
