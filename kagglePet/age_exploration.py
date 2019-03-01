@@ -5,7 +5,7 @@ import plotly.plotly as py
 import plotly.graph_objs as go
 
 from .basic_explorer import BasicExplorer
-import utils_plotting as plotting
+import .utils_plotting as plotting
 
 class AgeExplorer(BasicExplorer):
     def __init__(self):
